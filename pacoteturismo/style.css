@@ -1,0 +1,91 @@
+.menu {
+  padding-left: 200px;
+}
+.menu li {
+  display: inline-flex;
+}
+.menu li a {
+  transition: all 0.3s linear;
+}
+.menu li a:hover {
+  opacity: 0.8;
+}
+.menu li a img {
+  height: 200px;
+  width: 290px;
+  margin: 1.5px;
+  border-radius: 7px;
+}
+
+.texto {
+  position: absolute;
+  margin-top: -45px;
+  color: #fff;
+  font-family: verdana;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.texto1 {
+  position: absolute;
+  margin-top: -35px;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 10px;
+  font-family: verdana;
+  float: left;
+}
+
+.texto2 {
+  position: absolute;
+  margin-top: -45px;
+  color: #fff;
+  font-family: verdana;
+  font-size: 10px;
+  margin-left: 228px;
+}
+
+.texto3 {
+  position: absolute;
+  margin-top: -35px;
+  color: #fff;
+  font-family: verdana;
+  font-size: 18px;
+  margin-left: 235px;
+}
+
+.text {
+  font-family: arial;
+  font-size: 80;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .menu {
+    padding-left: 0px;
+  }
+
+  .texto, .texto1, .texto2, .texto3 {
+    width: 300%;
+  }
+
+  .text {
+    position: fixed;
+  }
+
+  .cima {
+    width: 100%;
+    overflow-x: scroll;
+    position: relative;
+    width: 600%;
+  }
+
+  .baixo {
+    width: 100%;
+    overflow-x: scroll;
+    position: relative;
+    width: 600%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
